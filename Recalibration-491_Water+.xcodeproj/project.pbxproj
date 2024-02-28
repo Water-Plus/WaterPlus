@@ -12,6 +12,8 @@
 		FDA57DB92B8EB39E001CD170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA57DB82B8EB39E001CD170 /* Assets.xcassets */; };
 		FDA57DBC2B8EB39E001CD170 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA57DBB2B8EB39E001CD170 /* Preview Assets.xcassets */; };
 		FDA57DC42B8EB3F1001CD170 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA57DC32B8EB3F1001CD170 /* HomePage.swift */; };
+		FDA57DC62B8ED042001CD170 /* DailyLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA57DC52B8ED042001CD170 /* DailyLog.swift */; };
+		FDA57DC92B8ED0D8001CD170 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA57DC82B8ED0D8001CD170 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		FDA57DB82B8EB39E001CD170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDA57DBB2B8EB39E001CD170 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FDA57DC32B8EB3F1001CD170 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		FDA57DC52B8ED042001CD170 /* DailyLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyLog.swift; sourceTree = "<group>"; };
+		FDA57DC82B8ED0D8001CD170 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 		FDA57DB32B8EB39C001CD170 /* Recalibration-491_Water+ */ = {
 			isa = PBXGroup;
 			children = (
+				FDA57DC72B8ED0A6001CD170 /* Extensions */,
 				FDA57DC22B8EB3E7001CD170 /* Home */,
 				FDA57DB42B8EB39C001CD170 /* Recalibration_491_Water_App.swift */,
 				FDA57DB62B8EB39C001CD170 /* ContentView.swift */,
@@ -74,8 +79,17 @@
 			isa = PBXGroup;
 			children = (
 				FDA57DC32B8EB3F1001CD170 /* HomePage.swift */,
+				FDA57DC52B8ED042001CD170 /* DailyLog.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		FDA57DC72B8ED0A6001CD170 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FDA57DC82B8ED0D8001CD170 /* Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,8 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDA57DC92B8ED0D8001CD170 /* Extension.swift in Sources */,
 				FDA57DB72B8EB39C001CD170 /* ContentView.swift in Sources */,
 				FDA57DC42B8EB3F1001CD170 /* HomePage.swift in Sources */,
+				FDA57DC62B8ED042001CD170 /* DailyLog.swift in Sources */,
 				FDA57DB52B8EB39C001CD170 /* Recalibration_491_Water_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
