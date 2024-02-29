@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C62B1D462B91352F00B01DF4 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62B1D452B91352F00B01DF4 /* ProgressBar.swift */; };
 		FDA57DB52B8EB39C001CD170 /* Recalibration_491_Water_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA57DB42B8EB39C001CD170 /* Recalibration_491_Water_App.swift */; };
 		FDA57DB72B8EB39C001CD170 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA57DB62B8EB39C001CD170 /* ContentView.swift */; };
 		FDA57DB92B8EB39E001CD170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA57DB82B8EB39E001CD170 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C62B1D452B91352F00B01DF4 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		FDA57DB12B8EB39C001CD170 /* Recalibration-491_Water+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recalibration-491_Water+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA57DB42B8EB39C001CD170 /* Recalibration_491_Water_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recalibration_491_Water_App.swift; sourceTree = "<group>"; };
 		FDA57DB62B8EB39C001CD170 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				FDA57DC32B8EB3F1001CD170 /* HomePage.swift */,
+				C62B1D452B91352F00B01DF4 /* ProgressBar.swift */,
 				FDA57DC52B8ED042001CD170 /* DailyLog.swift */,
 			);
 			path = Home;
@@ -166,6 +169,7 @@
 				FDA57DB72B8EB39C001CD170 /* ContentView.swift in Sources */,
 				FDA57DC42B8EB3F1001CD170 /* HomePage.swift in Sources */,
 				FDA57DC62B8ED042001CD170 /* DailyLog.swift in Sources */,
+				C62B1D462B91352F00B01DF4 /* ProgressBar.swift in Sources */,
 				FDA57DB52B8EB39C001CD170 /* Recalibration_491_Water_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
