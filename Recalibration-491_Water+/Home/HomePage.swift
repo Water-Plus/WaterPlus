@@ -23,9 +23,9 @@ struct HomePage: View {
                     .frame(width: UIScreen.screenWidth / 1.1)
             }
                     
-            }
         }
     }
+}
 
 #Preview {
     HomePage()

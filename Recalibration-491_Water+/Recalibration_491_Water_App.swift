@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct Recalibration_491_Water_App: App {
+    
+    let persistentContainer = CoreDataManager.shared.persistenceContainer
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, persistentContainer.viewContext)
+
         }
     }
 }

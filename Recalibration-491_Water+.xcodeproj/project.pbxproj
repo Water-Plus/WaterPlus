@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		C62B1D462B91352F00B01DF4 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62B1D452B91352F00B01DF4 /* ProgressBar.swift */; };
+		FD8F17862B9A99C400528673 /* WeatherAPIServerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F17852B9A99C400528673 /* WeatherAPIServerRequest.swift */; };
+		FD8F17892B9A9ACB00528673 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FD8F17882B9A9ACB00528673 /* Alamofire */; };
+		FD8F178B2B9A9ACB00528673 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = FD8F178A2B9A9ACB00528673 /* AlamofireDynamic */; };
+		FD8F178E2B9A9AE900528673 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = FD8F178D2B9A9AE900528673 /* SwiftyJSON */; };
+		FD8F17912B9A9E6000528673 /* HealthAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F17902B9A9E6000528673 /* HealthAPI.swift */; };
+		FD8F17942B9A9EA300528673 /* StepModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F17932B9A9EA300528673 /* StepModel.swift */; };
+		FD8F179C2B9AA54E00528673 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F179B2B9AA54E00528673 /* CoreDataManager.swift */; };
+		FD8F179F2B9AA5F400528673 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F179E2B9AA5F400528673 /* SettingsView.swift */; };
+		FD8F17A62B9AA9DC00528673 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F17A52B9AA9DC00528673 /* WelcomeView.swift */; };
+		FD8F17A82B9AADE200528673 /* GettingToKnowYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F17A72B9AADE200528673 /* GettingToKnowYouView.swift */; };
+		FD8F17AA2B9AAF2200528673 /* GettingToKnowYouView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F17A92B9AAF2200528673 /* GettingToKnowYouView2.swift */; };
+		FD8F17AC2B9AAF2C00528673 /* GettingToKnowYouView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F17AB2B9AAF2C00528673 /* GettingToKnowYouView3.swift */; };
+		FD8F17AF2B9AB4B300528673 /* WaterDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD8F17AD2B9AB4B300528673 /* WaterDB.xcdatamodeld */; };
 		FDA57DB52B8EB39C001CD170 /* Recalibration_491_Water_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA57DB42B8EB39C001CD170 /* Recalibration_491_Water_App.swift */; };
 		FDA57DB72B8EB39C001CD170 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA57DB62B8EB39C001CD170 /* ContentView.swift */; };
 		FDA57DB92B8EB39E001CD170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA57DB82B8EB39E001CD170 /* Assets.xcassets */; };
@@ -19,6 +32,18 @@
 
 /* Begin PBXFileReference section */
 		C62B1D452B91352F00B01DF4 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		FD8F17852B9A99C400528673 /* WeatherAPIServerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPIServerRequest.swift; sourceTree = "<group>"; };
+		FD8F17902B9A9E6000528673 /* HealthAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthAPI.swift; sourceTree = "<group>"; };
+		FD8F17932B9A9EA300528673 /* StepModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepModel.swift; sourceTree = "<group>"; };
+		FD8F17952B9AA0B800528673 /* Recalibration-491-Water--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Recalibration-491-Water--Info.plist"; sourceTree = SOURCE_ROOT; };
+		FD8F17962B9AA1CA00528673 /* Recalibration-491_Water+Debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Recalibration-491_Water+Debug.entitlements"; sourceTree = "<group>"; };
+		FD8F179B2B9AA54E00528673 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		FD8F179E2B9AA5F400528673 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FD8F17A52B9AA9DC00528673 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		FD8F17A72B9AADE200528673 /* GettingToKnowYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingToKnowYouView.swift; sourceTree = "<group>"; };
+		FD8F17A92B9AAF2200528673 /* GettingToKnowYouView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingToKnowYouView2.swift; sourceTree = "<group>"; };
+		FD8F17AB2B9AAF2C00528673 /* GettingToKnowYouView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingToKnowYouView3.swift; sourceTree = "<group>"; };
+		FD8F17AE2B9AB4B300528673 /* WaterDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WaterDB.xcdatamodel; sourceTree = "<group>"; };
 		FDA57DB12B8EB39C001CD170 /* Recalibration-491_Water+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recalibration-491_Water+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA57DB42B8EB39C001CD170 /* Recalibration_491_Water_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recalibration_491_Water_App.swift; sourceTree = "<group>"; };
 		FDA57DB62B8EB39C001CD170 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,15 +59,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD8F178E2B9A9AE900528673 /* SwiftyJSON in Frameworks */,
+				FD8F17892B9A9ACB00528673 /* Alamofire in Frameworks */,
+				FD8F178B2B9A9ACB00528673 /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD8F17842B9A99B000528673 /* WeatherAPI */ = {
+			isa = PBXGroup;
+			children = (
+				FD8F17852B9A99C400528673 /* WeatherAPIServerRequest.swift */,
+			);
+			path = WeatherAPI;
+			sourceTree = "<group>";
+		};
+		FD8F178F2B9A9DEF00528673 /* HealthKit */ = {
+			isa = PBXGroup;
+			children = (
+				FD8F17902B9A9E6000528673 /* HealthAPI.swift */,
+			);
+			path = HealthKit;
+			sourceTree = "<group>";
+		};
+		FD8F17922B9A9E9800528673 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD8F17932B9A9EA300528673 /* StepModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD8F179A2B9AA54300528673 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FD8F179B2B9AA54E00528673 /* CoreDataManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		FD8F179D2B9AA5E600528673 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FD8F179E2B9AA5F400528673 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		FD8F17A22B9AA96000528673 /* UserInfoStart */ = {
+			isa = PBXGroup;
+			children = (
+				FD8F17A52B9AA9DC00528673 /* WelcomeView.swift */,
+				FD8F17A72B9AADE200528673 /* GettingToKnowYouView.swift */,
+				FD8F17A92B9AAF2200528673 /* GettingToKnowYouView2.swift */,
+				FD8F17AB2B9AAF2C00528673 /* GettingToKnowYouView3.swift */,
+			);
+			path = UserInfoStart;
+			sourceTree = "<group>";
+		};
 		FDA57DA82B8EB39C001CD170 = {
 			isa = PBXGroup;
 			children = (
+				FD8F17AD2B9AB4B300528673 /* WaterDB.xcdatamodeld */,
 				FDA57DB32B8EB39C001CD170 /* Recalibration-491_Water+ */,
 				FDA57DB22B8EB39C001CD170 /* Products */,
 			);
@@ -59,6 +139,14 @@
 		FDA57DB32B8EB39C001CD170 /* Recalibration-491_Water+ */ = {
 			isa = PBXGroup;
 			children = (
+				FD8F17A22B9AA96000528673 /* UserInfoStart */,
+				FD8F179D2B9AA5E600528673 /* Settings */,
+				FD8F179A2B9AA54300528673 /* Manager */,
+				FD8F17962B9AA1CA00528673 /* Recalibration-491_Water+Debug.entitlements */,
+				FD8F17952B9AA0B800528673 /* Recalibration-491-Water--Info.plist */,
+				FD8F17922B9A9E9800528673 /* Model */,
+				FD8F178F2B9A9DEF00528673 /* HealthKit */,
+				FD8F17842B9A99B000528673 /* WeatherAPI */,
 				FDA57DC72B8ED0A6001CD170 /* Extensions */,
 				FDA57DC22B8EB3E7001CD170 /* Home */,
 				FDA57DB42B8EB39C001CD170 /* Recalibration_491_Water_App.swift */,
@@ -111,6 +199,11 @@
 			dependencies = (
 			);
 			name = "Recalibration-491_Water+";
+			packageProductDependencies = (
+				FD8F17882B9A9ACB00528673 /* Alamofire */,
+				FD8F178A2B9A9ACB00528673 /* AlamofireDynamic */,
+				FD8F178D2B9A9AE900528673 /* SwiftyJSON */,
+			);
 			productName = "Recalibration-491_Water+";
 			productReference = FDA57DB12B8EB39C001CD170 /* Recalibration-491_Water+.app */;
 			productType = "com.apple.product-type.application";
@@ -139,6 +232,10 @@
 				Base,
 			);
 			mainGroup = FDA57DA82B8EB39C001CD170;
+			packageReferences = (
+				FD8F17872B9A9ACB00528673 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				FD8F178C2B9A9AE900528673 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = FDA57DB22B8EB39C001CD170 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -165,12 +262,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD8F17862B9A99C400528673 /* WeatherAPIServerRequest.swift in Sources */,
+				FD8F17AA2B9AAF2200528673 /* GettingToKnowYouView2.swift in Sources */,
+				FD8F17942B9A9EA300528673 /* StepModel.swift in Sources */,
 				FDA57DC92B8ED0D8001CD170 /* Extension.swift in Sources */,
+				FD8F17912B9A9E6000528673 /* HealthAPI.swift in Sources */,
+				FD8F17AF2B9AB4B300528673 /* WaterDB.xcdatamodeld in Sources */,
+				FD8F17AC2B9AAF2C00528673 /* GettingToKnowYouView3.swift in Sources */,
 				FDA57DB72B8EB39C001CD170 /* ContentView.swift in Sources */,
 				FDA57DC42B8EB3F1001CD170 /* HomePage.swift in Sources */,
 				FDA57DC62B8ED042001CD170 /* DailyLog.swift in Sources */,
 				C62B1D462B91352F00B01DF4 /* ProgressBar.swift in Sources */,
+				FD8F17A82B9AADE200528673 /* GettingToKnowYouView.swift in Sources */,
+				FD8F179F2B9AA5F400528673 /* SettingsView.swift in Sources */,
 				FDA57DB52B8EB39C001CD170 /* Recalibration_491_Water_App.swift in Sources */,
+				FD8F179C2B9AA54E00528673 /* CoreDataManager.swift in Sources */,
+				FD8F17A62B9AA9DC00528673 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,12 +408,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Recalibration-491_Water+/Recalibration-491_Water+Debug.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Recalibration-491_Water+/Preview Content\"";
 				DEVELOPMENT_TEAM = AQYU6V44Z6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Recalibration-491-Water--Info.plist";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Health sharing";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Health sharing";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -337,6 +448,9 @@
 				DEVELOPMENT_TEAM = AQYU6V44Z6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Recalibration-491-Water--Info.plist";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Health sharing";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Health sharing";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -378,6 +492,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FD8F17872B9A9ACB00528673 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+		FD8F178C2B9A9AE900528673 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FD8F17882B9A9ACB00528673 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD8F17872B9A9ACB00528673 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		FD8F178A2B9A9ACB00528673 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD8F17872B9A9ACB00528673 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		FD8F178D2B9A9AE900528673 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD8F178C2B9A9AE900528673 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		FD8F17AD2B9AB4B300528673 /* WaterDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD8F17AE2B9AB4B300528673 /* WaterDB.xcdatamodel */,
+			);
+			currentVersion = FD8F17AE2B9AB4B300528673 /* WaterDB.xcdatamodel */;
+			path = WaterDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FDA57DA92B8EB39C001CD170 /* Project object */;
 }

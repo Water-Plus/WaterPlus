@@ -8,6 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let persistentContainer = CoreDataManager.shared.persistenceContainer
+    @StateObject var weather = WeatherServerFetchRequest()
+    @StateObject var healthStore = HealthStore()
+    @State private var showUserInfoStart = false
+    @AppStorage("isFirstLaunch") var isFirstLaunch: Bool = true
+    @Environment(\.managedObjectContext) var viewContext
+    @FetchRequest(entity: User.entity(), sortDescriptors: []) var users: FetchedResults<User>
+
+    init() {
+        UITabBar.appearance().unselectedItemTintColor = .black
+    }
+    
     var body: some View {
         
         TabView {
@@ -15,18 +28,49 @@ struct ContentView: View {
                 .tabItem {
                        Label("Home", systemImage: "list.dash")
                    }
+            
+            SettingsView()
+                .tabItem {
+                       Label("Settings", systemImage: "list.dash")
+                   }
         }
-
-        //        VStack {
-//            Image(systemName: "globe")
-//                .imageScale(.large)
-//                .foregroundStyle(.tint)
-//            Text("Hello, world!")
-//        }
-//        .padding()
+        .accentColor(.white)
+        .environmentObject(weather)
+        .environmentObject(healthStore)
+        .onAppear {
+            
+//            weather.find()
+            
+            healthStore.requestAuthorization { _ in
+                
+            }
+            
+            if isFirstLaunch {
+                showUserInfoStart = true
+            }
+            
+            
+            printUserInfo()
+        }
+        .fullScreenCover(isPresented: $showUserInfoStart) {
+            WelcomeView()
+                .onAppear {
+                    isFirstLaunch = false
+                }
+        }
+    }
+    
+    private func printUserInfo() {
+        for user in users {
+            print("name: \(user.name ?? "Unknown")")
+            print("Age: \(user.age)")
+            print("Weight: \(user.weight)")
+        }
     }
 }
 
 #Preview {
     ContentView()
 }
+
+
