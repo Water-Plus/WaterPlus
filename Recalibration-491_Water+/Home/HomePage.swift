@@ -21,6 +21,8 @@ struct HomePage: View {
 
                 DailyLog()
                     .frame(width: UIScreen.screenWidth / 1.1)
+                
+                IntakeButton().frame(width:UIScreen.screenWidth/1.1)
             }
                     
             }
